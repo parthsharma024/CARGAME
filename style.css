@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flexbox;
+}
+.nikola{
+    height: 548px;
+    width: 1518px;
+ 
+
+}
+.track{
+    position: relative;
+ height: 155px;
+ width: 10051px;
+ margin: 0px;
+
+ animation: carmove linear 13s infinite;
+}
+/* .car{
+    height: 251px;
+    width: 250px;
+   
+} */
+.carbody{
+ 
+    background-image: url(car_body.png);
+    bottom: 70vh;
+    
+}
+.mj{
+    position: absolute;
+    height: 186px;
+    width: 380px;
+    top: 66vh;
+}
+.wheep{
+    position: absolute;
+    height: 110px;
+    width: 99px;
+    top: 75vh;
+    left: 32px;
+    animation: wheelRotation linear 0.9s infinite;
+}
+.wheeo{
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    top: 77vh;
+    left: 216px;
+    animation: wheelRotation linear 0.9s infinite;
+}
+@keyframes wheelRotation {
+   100%{
+        transform: rotate(360deg);
+    }
+    
+}
+@keyframes carmove {
+    100%{
+         transform: translateX(-530vw)
+     }
+     
+ }
